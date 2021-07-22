@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnDialog = findViewById(R.id.btn_dialog);
-        Button btnFruits = findViewById(R.id.btn_fruits);
+        btnFruits = findViewById(R.id.btn_fruits);
         btnDialog.setOnClickListener(btnListener);
         btnFruits.setOnClickListener(btnListener);
         imgV = findViewById(R.id.imgv);
